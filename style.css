@@ -4,10 +4,14 @@
     border: 0;
     box-sizing: border-box;
 }
+html {
+    overflow: hidden;
+}
 button {
     background-color: transparent;
   }
 body {
+    overflow: hidden;
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
@@ -27,7 +31,7 @@ main {
     background-repeat: no-repeat;
     background-position: top;
 }
-.ds {
+.ds, .box {
     display: none;
 }
 .imgs {
@@ -125,6 +129,7 @@ main {
         position: relative;
     }
     .box {
+        display: flex;
         position: absolute;
         z-index: 1;
         top: -40px;
