@@ -111,6 +111,9 @@ main {
         justify-content: space-between;
         align-items: center;
     }
+    .hiden {
+        overflow: hidden;
+    }
     .mb {
         display: none;
     }
@@ -132,8 +135,8 @@ main {
         display: flex;
         position: absolute;
         z-index: 1;
-        top: -40px;
-        right: 335px;
+        top: -50px;
+        right: 333px;
         width: 200px;
         height: 200px;
     }
@@ -157,7 +160,6 @@ main {
         padding: 0 10px;
         font-size: 14px;
         line-height: 17px;
-
     }
     .question.active {
         color: #F47B56;
